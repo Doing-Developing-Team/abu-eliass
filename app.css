@@ -1122,7 +1122,7 @@
  }
  .s-form-group{margin-top:0.75rem;margin-bottom:0.75rem}
  .s-checkbox{cursor:pointer;--tw-border-opacity:1;border-color:rgba(209, 213, 219, 1);border-color:rgba(209, 213, 219, var(--tw-border-opacity));-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;margin:0;width:18px;height:18px;border-width:1px;border-radius:4px;display:grid;align-content:center;justify-content:center;place-content:center}
- .s-checkbox:before{content:;width:10px;height:10px;clip-path:polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);transform:scale(0);transform-origin:bottom left;transition:120ms transform ease-in-out;box-shadow:inset 1em 1em #444;background-color:#444}
+ .s-checkbox:before{content:"";width:10px;height:10px;clip-path:polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);transform:scale(0);transform-origin:bottom left;transition:120ms transform ease-in-out;box-shadow:inset 1em 1em #444;background-color:#444}
  .s-checkbox:checked:before{transform:scale(1)}
  .s-checkbox * {
    pointer-events: none;
@@ -7317,7 +7317,7 @@
    font-size: 44px;
    font-size: var(--swiper-navigation-size);
    letter-spacing: 0;
-   font-feature-settings: ;
+   /* font-feature-settings: ; */
    font-variant: normal;
    font-variant: initial;
    line-height: 1;
